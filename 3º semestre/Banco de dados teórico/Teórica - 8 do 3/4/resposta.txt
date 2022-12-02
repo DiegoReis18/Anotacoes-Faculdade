@@ -1,0 +1,10 @@
+Prontuario_medico =     // Remoção do acento e troca do - por _
+nm_paciente
++sg_sexo_paciente       
++dt_inicio		// Remoção do acento 
++dt_fim
++ds_tipo_tratamento     // Troca de nm por ds
++nm_nome_hospital	// troca de cd por nm
++{nm_remedio_prescrito  // Remoção do acento
++cd_remedio_prescrito   // Remoção do acento, troca do - por _ e chaves desnecessárias
++qt_dosagem_diaria_remedio_prescrito}  // Remoção do acento e chaves desnecessárias

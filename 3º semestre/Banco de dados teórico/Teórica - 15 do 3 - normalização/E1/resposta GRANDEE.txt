@@ -1,0 +1,123 @@
+Tabela_Dados=
+    cd_numero_ficha
++cd_codigo_paciente
++nm_paciente
++dt_baixa
++dt_internacao
++cd_quarto
+	+{cd_convenio
+	+nm_convenio}
++cd_medico
++nm_medico
++cd_setor
++nome_setor
+	{+cd_exame
+	+ds_exame}
+
+1 NM - separou os multivalorados e definiu as chaves.
+
+Dados_Internacao=
+    cd_numero_ficha (chave primária)
++cd_codigo_paciente    (chave estrangeira)
++nm_paciente    
++dt_baixa
++dt_internacao
++qt_quarto
++cd_medico
++nm_medico
++cd_setor
++nome_setor
+
+Paciente_Convenio=
+  cd_paciente (chave primária)
+  +cd_convenio (chave estrangeira)
+  +nm_convenio
+
+Exame=
+  cd_ficha  (chave estrangeira)
+  +cd_exame   (chave primária)
+  +ds_exame
+
+
+
+
+2 NM - Separou os que não tinham dependencia da chave primária.
+
+Dados_Internacao=
+    cd_numero_ficha (chave primária)
++cd_codigo_paciente  (chave estrangeira)
++nm_paciente
++dt_baixa
++dt_internacao
++qt_quarto
++cd_medico
++nm_medico
++cd_setor
++nome_setor
+
+Paciente_Convenio=
+  cd_paciente (chave primária)
+  +cd_convenio (chave estrangeira)
+  +nm_convenio
+
+Inter_Exame=
+  cd_ficha  (chave primária)
+  +cd_exame  (chave estrangeira)
+  +ds_exame
+
+Convenio=
+  cd_convenio  (chave primária)
+  +nm_convenio
+
+Exame=
+  cd_exame   (chave primária)
+  +ds_exame
+
+
+
+
+3 NM - Separou as dependencias relativas.
+
+Dados_Internacao=
+    cd_numero_ficha (chave primária)
++cd_codigo_paciente  (chave estrangeira)
++nm_paciente
++dt_baixa
++dt_internacao
++qt_quarto
++cd_medico  (chave estrangeira)
++cd_setor  (chave estrangeira)
+
+Paciente_Convenio=
+  cd_paciente  (chave estrangeira)
+  +cd_convenio (chave estrangeira)
+  +nm_convenio
+
+Inter_Exame=
+  cd_ficha   (chave estrangeira)
+  +cd_exame  (chave estrangeira)
+  +ds_exame
+
+Convenio=
+  cd_convenio  (chave primária)
+  +nm_convenio
+
+Exame=
+  cd_exame   (chave primária)
+  +ds_exame
+
+Paciente=
+  cd_paciente  (chave primária)
+  +nm_paciente
+
+Medico=
+  cd_medico  (chave primária)
+  +nm_medico
+
+Setor=
+  cd_setor  (chave primária)
+  +nm_setor
+
+
+
+

@@ -1,0 +1,28 @@
+tabela_cliente=
++{nm_nome_cliente
++dc_endereco
++cd_cnpj
++cd_inscricao_estadual}   // tabela com vários clientes (por isso das { } e +)
+
+tabela_nota_fiscal=
+cd_num_nota
+dt_data_nota
+vl_total_nota
++{qt_mercadoria
++ds_mercadoria
++vl_preco_unitario
++vl_preco_total}     // tabela com a nota fiscal fixa, mas tem várias mercadorias (por isso das { } e +)
+
+
+tabela_final=
+cd_num_nota
+dt_data_nota
+vl_total_nota
+nm_nome_cliente
+dc_endereco
+cd_cnpj
+cd_inscricao_estadual    // nesse caso, só tem 1 cliente na nota, por isso não tem {} e +
++{qt_mercadoria
++ds_mercadoria
++vl_preco_unitario
++vl_preco_total} 

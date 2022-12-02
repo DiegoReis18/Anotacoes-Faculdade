@@ -1,0 +1,20 @@
+1- sg_escola
+
+2- qt_tempo (periodo de tempo não é monetário)
+
+3- qt_média
+
+4- ic_ativo (registro de uma pessoa)
+
+5- pc_desconto
+
+6- Nome é um campo para pessoas, possui 1 ou poucas palavras sem muitas informações.
+Descrição é para os demais dados, um campo com mais informações e mais detalhado.
+
+7- ds_produto = Faz uma descrição breve de um produto de algum estabelecimento.
+
+8- vl_desembolsado
+
+9- _compras
+
+10 - Código (cd) é numérico (identificador) , Sigla (sg) é com letras (abreviações).

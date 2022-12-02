@@ -1,0 +1,7 @@
+V - O caderno é uma forma de base da dados manuais.
+F - No modelo conceitual não deve haver redundância/repetição
+V - Esses são os 3 tipos de bancos de dados, mas o relacional é o mais usado
+F - O modelo conceitual tem grande participação do usuário, enquanto o modelo lógico e fisico não possuem essa participação
+F - A maioria dos bancos de dados são armazenados em meio magnético.
+
+

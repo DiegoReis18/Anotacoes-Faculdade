@@ -1,0 +1,6 @@
+ficha_inscricao_candidato=     // Remoção do acento e do Ç, - por _
+nm_nome_candidato                  //Mudança do nome
++ds_candidato			//Mudança do nome
++cd_codigo_candidato	      // troca do ic por cd, mudança do nome
++nm_pai_candidato            // Eliminado o <>
++nm_mae_candidato          // Eliminado o <>

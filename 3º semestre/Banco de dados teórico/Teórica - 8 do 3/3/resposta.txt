@@ -1,0 +1,8 @@
+relação_inscritos_excursao=          // Remoção do acento
+nm_cidade_destino_excursao           // Remoção do acento 
++ds_tipo_transporte_excursao         // Remoção do acento e troca de cd por ds
++dt_data_embarque_excursao           // Remoção do acento 
++{nm_nome_turista    // erro no nome, usou - ao invés de _
++ds_idade_turista   // troca de sg por ds
++sg_sexo_turista}   // troca do cd por sg
+

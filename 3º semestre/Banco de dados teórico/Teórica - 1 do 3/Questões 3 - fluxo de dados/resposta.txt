@@ -1,0 +1,11 @@
+tabela_historico
++{nm_nome_aluno
++ds_curso
++cd_matricula
++dt_inicio_curso
++cd_codigo_disciplina
++ds_disciplina
++qt_media
++ds_situacao
++ds_periodo
++qt_carga_horaria}

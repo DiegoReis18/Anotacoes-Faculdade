@@ -1,0 +1,8 @@
+Solicitacao_compra=		// Remoção do acento e do Ç
+cd_codigo_compra              //adição da linha
++dt_solicitacao_compra       // Remoção do acento e do Ç
++nm_nome_solicitante         // Faltou o nm
++{cd_material_solicitado
++qt_material_solicitado       
++vl_valor_preco_unitario_material_solicitado       //Troca do qt por vl, adicionado "valor" no nome, remoção do acento e do Ç
++ic_confidencialidade_solicitacao_compra}    // Remoção do acento e do Ç e fechar as chaves
