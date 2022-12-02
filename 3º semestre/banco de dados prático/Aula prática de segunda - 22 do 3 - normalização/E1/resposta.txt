@@ -1,0 +1,92 @@
+Locadora_de_Fitas=
+cd_locacao
++cd_cliente
++dt_data
++nm_autorizado
+	{+cd_codigo_fita
+	 +ds_tipo
+	 +dt_devolucao_prevista
+	 +dt_devolucao
+	 +vl_multa
+	 +vl_valor}
++vl_subtotal
++vl_valor_total_do_servico
+
+
+
+1 FN - Separação dos multivalorados e localização da chave primária e estrangeira
+
+
+Locadora_de_Fitas=
+cd_locacao	**CP
+cd_cliente  
+dt_data
+nm_autorizado
+vl_subtotal
+vl_valor_total_do_servico
+
+
+Fitas=
+cd_codigo_fita   **CP
+cd_locacao	  **CE
+ds_tipo
+dt_devolucao_prevista
+dt_devolucao
+vl_multa
+vl_valor
+
+
+
+2 FN - Ver se tem relação entre o dado e a CP/CE
+
+
+Locadora_de_Fitas=
+cd_locacao	**CP
+cd_cliente  
+dt_data
+nm_autorizado
+vl_subtotal	
+vl_valor_total_do_servico
+
+Itens_locacao=
+cd_codigo_fita   **CP
+cd_locacao	  **CE
+dt_devolucao_prevista
+dt_devolucao
+vl_multa
+vl_valor	
+
+Fita=
+cd_fita		 **CE
+ds_fita
+
+
+
+3 FN - Definir se tem dependencia direta da CP/CE
+
+
+Locadora_de_Fitas=
+cd_locacao	**CP
+cd_cliente  **CE
+dt_data
+nm_autorizado
+vl_subtotal	
+vl_valor_total_do_servico
+
+Itens_locacao=
+cd_codigo_fita   **CP
+cd_locacao	  **CE	  
+dt_devolucao_prevista	    
+dt_devolucao		
+vl_multa
+vl_valor		
+
+Fitas=
+cd_codigo_fita		**CE
+ds_tipo		
+
+Cliente=
+cd_cliente 	**CP
+nm_autorizado   
+
+

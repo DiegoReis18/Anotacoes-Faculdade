@@ -1,0 +1,88 @@
+Abertura_de_chamado=
+cd_chamado
++dt_chamado
++ds_chamado
++cd_funcionario
++nm_funcionario
++cd_atendimento
++ds_atendimento
+	{+cd_analista
+	+nm_analista
+	+cd_log_atendimento
+	+ds_log_atendimento}
+
+
+
+1 FN - Separação dos multivalorados e localização da chave primária e estrangeira
+
+Abertura_de_chamado=
+cd_chamado           **CP
+dt_chamado
+ds_chamado
+cd_funcionario
+nm_funcionario
+cd_atendimento
+ds_atendimento
+
+Analista=
+cd_chamado	**CE
+cd_analista	**CP
+nm_analista
+cd_log_atendimento
+ds_log_atendimento
+
+
+
+2 FN - Ver se tem relação entre o dado e a CP/CE
+
+Abertura_de_chamado=
+cd_chamado           **CP
+dt_chamado
+ds_chamado
+cd_funcionario	
+nm_funcionario
+cd_atendimento
+ds_atendimento
+
+Atendimento_Analista=
+cd_chamado	**CE
+cd_analista	**CE
+cd_log_atendimento	**CE
+
+Analista=
+cd_analista	**CP
+nm_analista
+
+Log_Atendimento=
+cd_log_atendimento	**CP
+ds_log_atendimento
+
+
+3 FN - Definir se tem dependencia direta da CP/CE
+Abertura_de_chamado=
+cd_chamado           **CP
+dt_chamado
+ds_chamado
+cd_funcionario		**CE
+cd_atendimento		**CE
+                                                                                                                                                                                                                                                
+Atendimento_Analista=
+cd_chamado	**CE
+cd_analista	**CE
+cd_log_atendimento	**CE
+
+Analista=
+cd_analista	**CP
+nm_analista
+
+Log_Atendimento=
+cd_log_atendimento	**CP
+ds_log_atendimento
+
+Funcionario=
+cd_funcionario		**CP
+nm_funcionario
+
+Atendimento=
+cd_atendimento		**CP
+ds_atendimento
