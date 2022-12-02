@@ -1,0 +1,10 @@
+2930        100%
+630          x
+
+2930x = 63000
+x = 63000/2930
+x = 21,5%
+
+População:  Seria se tivesse analisado TODOS os homens brasileiros do estudo
+Amostra:  2930 individuos (parte da população apenas)
+Conjunto de dados:    630 positivos e 2300 negativos

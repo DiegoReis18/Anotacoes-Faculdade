@@ -1,0 +1,10 @@
+1)a)Obter o número 3
+R: tem 6 possibilidades totais, ou seja, 1/6 ou 16,66%
+
+b)Obter o número 7
+R: O dado tem apenas 6 lados, ou seja, não é possivel obter o número 7.
+Então tem a possibilidade de 0/6 ou 0%
+
+c) Obter um número menor do que 5
+R: Evento possivel C = {1,2,3,4}. Probabilidade de 4/6
+

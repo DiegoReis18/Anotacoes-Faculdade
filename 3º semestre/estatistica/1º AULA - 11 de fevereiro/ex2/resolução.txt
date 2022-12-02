@@ -1,0 +1,6 @@
+População : preço de todos os pacotes de 5kg de arroz de supermercados e
+atacadistas de São paulo
+
+Amostra: Preço dos 800 supermecados e atacadistas analisados
+
+Conjunto de dados:  Preço dos 800 supermecados e atacadistas analisados

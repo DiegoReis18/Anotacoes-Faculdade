@@ -1,0 +1,9 @@
+A) Ter o gene: 72/102
+   Ter o Qi Alto em relação ao gene: 33/72 = 0.46 = 46%
+   Ter o Qi alto e gene em relação ao total: 33/102	 
+
+B) Não tem o gene presente:  30/102
+
+C) Não Ter o QI normal: 50/102
+   Não ter o gene em relação ao QI normal: 11/50 = 0.46 = 46%
+   Ter o Qi alto e gene em relação ao total: 11/102
